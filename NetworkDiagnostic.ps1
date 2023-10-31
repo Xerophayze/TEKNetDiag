@@ -543,6 +543,7 @@ $textBoxEndIP.Anchor = 'Top,Left,Right'
 $buttonGo.Anchor = 'Top,Right'
 $buttonStop.Anchor = 'Top,Right'
 $tabControl.Anchor = 'Top,Left,Right,Bottom'
+$buttonFixNetworkStack.Anchor = 'Bottom,Left'
 
 # Define the main timer for ping and trace RT actions
 $mainTimer = New-Object System.Windows.Forms.Timer
